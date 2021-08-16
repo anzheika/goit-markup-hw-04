@@ -55,9 +55,19 @@ ul {
   list-style: none;
 }
 /* НАЧАЛО ШАПКИ И НАВИГАЦИИ НА САЙТЕ */
+
 .page-header {
   color: var(--primary-bg-color);
+  margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* width: 1200px; */
+  border-bottom: 1px solid #ececec;
 }
+/* .page-header {
+  display: flex;
+  justify-content: flex-end;
+} */
 .logoweb {
   text-decoration: none;
   color: #2196f3;
@@ -97,21 +107,23 @@ ul {
   align-items: center;
 }
 
-.nav-item {
+.nav-link {
+  display: block;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 .header-container {
-  border-bottom: 1px solid #ececec;
-  margin: 0 auto;
+  width: 1200px;
 }
+
 .header-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
 }
 
 .nav-container {
   display: flex;
+  align-items: center;
 }
 .nav-header a {
   text-decoration: none;
@@ -131,47 +143,15 @@ ul {
   margin-right: 40px;
 }
 
-.nav-container {
-  margin: 0 auto;
-}
-.nav-item-mail {
-  margin-right: 50px;
-}
-.nav-item-mail,
-.nav-item-tel {
-  display: flex;
-  align-items: center;
-}
-.nav-mail-link {
-  display: flex;
-  align-items: center;
-}
-.nav-tel-link {
-  display: flex;
-  align-items: center;
-}
-.nav-mail-link,
-.nav-tel-link {
-  margin-right: 10px;
-}
-
-.nav-mail-link:hover,
-.nav-tel-link:focus {
-  fill: var(--accent-color);
-}
-
-.nav-tel-icon,
-.nav-tel-icon {
-  fill: #757575;
-}
-
 .nav-email,
 .nav-number {
   text-decoration: none;
   color: var(--primary-text-color);
   font-weight: 500;
 }
-
+.nav-item-mail {
+  margin-right: 50px;
+}
 .nav-email:focus,
 .nav-email:hover {
   color: var(--accent-color);
