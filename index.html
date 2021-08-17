@@ -20,8 +20,8 @@
     <!--Шапка сайта-->
     <header class="page-header">
       <div class="container header-container">
+        <a href="/" class="logoweb">Web<span class="logostudio">Studio</span></a>
         <nav class="nav">
-          <a href="/" class="logoweb">Web<span class="logostudio">Studio</span></a>
           <ul class="nav-header">
             <li class="nav-item link"><a href="" class="nav-link current">Студия</a></li>
             <li class="nav-item link"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
@@ -30,31 +30,27 @@
         </nav>
         <ul class="nav-container">
           <li class="nav-item-mail">
-            <!-- <a href="" class="nav-mail-link link" > -->
-            <svg class="nav-mail-icon" width="20" height="20">
+            <a href="mailto:info@devstudio.com" class="nav-link link">
+              <svg class="nav-icon" width="20" height="20">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
-            <a href="mailto:info@devstudio.com" class="nav-email nav-mail-link link"
-                        <svg class="nav-mail-icon" width="20" height="20">
-                <use href="./images/icons.svg#icon-envelope"></use>
-              </svg>
-              >info@devstudio.com</a>
+              info@devstudio.com
+            </a>
           </li>
           <li class="nav-item-tel">
-            <a href="" class="nav-tel-link link">
-              <svg class="nav-tel-icon" width="20" height="20">
+            <a href="tel:+380991111111" class="nav-link link">
+              <svg class="nav-icon" width="20" height="20">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
+              +38 099 111 11 11
             </a>
-            <a href="tel:+380991111111" class="nav-number">+38 099 111 11 11</a>
           </li>
         </ul>
       </div>
     </header>
     <main>
-      <!--<Баннер и кнопка для заказа услуги-->
       <section class="hero">
-        <div class="container hero-container">
+        <div class="hero-container container">
           <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
           <button type="button" class="button-text button">Заказать услугу</button>
         </div>
@@ -66,25 +62,25 @@
           <h2 class="visually-hidden">Наши преймущества</h2>
           <ul class="our-advantages-list">
             <li class="advantages-list-item">
-              <h3 class="advantages-title">Внимание к деталям</h3>
+              <h3 class="advantages-title advantages-title-antenna">Внимание к деталям</h3>
               <p>
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
             </li>
             <li class="advantages-list-item">
-              <h3 class="advantages-title">Пунктуальность</h3>
+              <h3 class="advantages-title advantages-title-clock">Пунктуальность</h3>
               <p>
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
             </li>
             <li class="advantages-list-item">
-              <h3 class="advantages-title">Планирование</h3>
+              <h3 class="advantages-title advantages-title-diagram">Планирование</h3>
               <p>
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
             </li>
             <li class="advantages-list-item">
-              <h3 class="advantages-title">Современные технологии</h3>
+              <h3 class="advantages-title advantages-title-astronaut">Современные технологии</h3>
               <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
             </li>
           </ul>
@@ -273,17 +269,101 @@
           </ul>
         </div>
       </section>
+      <section class="our-clients section">
+        <div class="container">
+          <h2 class="our-clients-title">Постоянные клиенты</h2>
+          <ul class="our-clients-list">
+            <li>
+              <a href="" class="our-clients-link link">
+                <svg class="our-clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#logo-first"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="our-clients-link link">
+                <svg class="our-clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#logo-second"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="our-clients-link link">
+                <svg class="our-clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#logo-third"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="our-clients-link link">
+                <svg class="our-clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#logo-fourth"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="our-clients-link link">
+                <svg class="our-clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#logo-fifth"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a href="" class="our-clients-link link">
+                <svg class="our-clients-icon" width="106" height="60">
+                  <use href="./images/icons.svg#logo-sixth"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
     </main>
 
     <!--Подвал страницы-->
     <footer class="footer">
-      <div class="container">
-        <a href="/" class="logoweb-footer">Web<span class="logostudiofooter">Studio</span></a>
-        <address class="address">
-          <p class="address-name">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="address-mail link" href="mailto:info@example.com">info@example.com</a>
-          <a class="address-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+      <div class="container footer-container">
+        <div class="footer-container-first">
+          <a href="/" class="logoweb-footer">Web<span class="logostudiofooter">Studio</span></a>
+          <address class="address">
+            <p class="address-name">г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="address-mail link" href="mailto:info@example.com">info@example.com</a>
+            <a class="address-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <div class="footer-social-links-container">
+          <h2 class="footer-title">Присоединяйтесь</h2>
+          <ul class="footer-social-list">
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>

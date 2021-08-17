@@ -19,22 +19,30 @@
     <!--Шапка сайта-->
     <header class="page-header">
       <div class="container header-container">
+        <a href="/" class="logoweb">Web<span class="logostudio">Studio</span></a>
         <nav class="nav">
-          <a href="/" class="logoweb">Web<span class="logostudio">Studio</span></a>
           <ul class="nav-header">
-            <li class="nav-item"><a href="./index.html" class="nav-link">Студия</a></li>
-            <li class="nav-item">
-              <a href="" class="nav-link current">Портфолио</a>
-            </li>
-            <li class="nav-item"><a href="" class="nav-link">Контакты</a></li>
+            <li class="nav-item link"><a href="./index.html" class="nav-link">Студия</a></li>
+            <li class="nav-item link"><a href="" class="nav-link current">Портфолио</a></li>
+            <li class="nav-item link"><a href="" class="nav-link">Контакты</a></li>
           </ul>
         </nav>
         <ul class="nav-container">
           <li class="nav-item-mail">
-            <a href="mailto:info@devstudio.com" class="nav-email">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="nav-link link">
+              <svg class="nav-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="nav-item-tel">
-            <a href="tel:+380991111111" class="nav-number">+38 099 111 11 11</a>
+            <a href="tel:+380991111111" class="nav-link link">
+              <svg class="nav-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-smartphone"></use>
+              </svg>
+              +38 099 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -45,19 +53,19 @@
             <h1 class="visually-hidden">Примеры работ</h1>
             <ul class="work-examples-container button-items-list">
               <li class="button-examples-item">
-                <button type="button" class="button-text-examples button-all">Все</button>
+                <button type="button" class="button-text-examples">Все</button>
               </li>
               <li class="button-examples-item">
                 <button type="button button-web" class="button-text-examples">Веб-сайты</button>
               </li>
               <li class="button-examples-item">
-                <button type="button" class="button-text-examples button-apps">Приложения</button>
+                <button type="button" class="button-text-examples">Приложения</button>
               </li>
               <li class="button-examples-item">
-                <button type="button" class="button-text-examples button-design">Дизайн</button>
+                <button type="button" class="button-text-examples">Дизайн</button>
               </li>
               <li class="button-examples-item">
-                <button type="button" class="button-text-examples button-marketing">
+                <button type="button" class="button-text-examples">
                   Маркетинг
                 </button>
               </li>
@@ -140,13 +148,48 @@
     </main>
     <!--Подвал страницы-->
     <footer class="footer">
-      <div class="container">
-        <a href="/" class="logoweb-footer">Web<span class="logostudiofooter">Studio</span></a>
-        <address class="address">
-          <p class="address-name">г. Киев, пр-т Леси Украинки, 26</p>
-          <a class="address-mail link" href="mailto:info@example.com">info@example.com</a>
-          <a class="address-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
-        </address>
+      <div class="container footer-container">
+        <div class="footer-container-first">
+          <a href="/" class="logoweb-footer">Web<span class="logostudiofooter">Studio</span></a>
+          <address class="address">
+            <p class="address-name">г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="address-mail link" href="mailto:info@example.com">info@example.com</a>
+            <a class="address-tel link" href="tel:+380991111111">+38 099 111 11 11</a>
+          </address>
+        </div>
+        <div class="footer-social-links-container">
+          <h2 class="footer-title">Присоединяйтесь</h2>
+          <ul class="footer-social-list">
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-list-item">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="">
+              <a href="" class="social-list-link">
+                <svg class="social-list-icon-footer" width="20" height="20">
+                  <use href="./images/icons.svg#linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </footer>
   </body>
