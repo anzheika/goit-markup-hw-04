@@ -111,13 +111,10 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.header-container {
-}
 
 .header-container {
   display: flex;
   align-items: center;
-  width: 1200px;
 }
 .nav {
   display: block;
@@ -503,8 +500,9 @@ ul {
   justify-content: space-between;
   margin: 0 auto;
 }
+/* ===============КОНЕЦ НАШИ КЛИЕНТЫ===================== */
 /* -=========ФИЛЬТР НА СТРАНИЦЕ ПОРТФОЛИО НАЧАЛО =========*/
-.work-examples .button-text-examples {
+.button-text-examples {
   font-family: inherit;
   background-color: #f5f4fa;
   color: #212121;
@@ -513,12 +511,10 @@ ul {
   line-height: 1.62;
   letter-spacing: 0.03em;
 }
-.work-examples-container .button-text-examples:hover,
+.button-text-examples:hover,
 .button-text-examples:focus {
   background-color: var(--accent-color);
   color: white;
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
-    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .work-examples-container {
@@ -601,6 +597,9 @@ button {
 }
 .work-examples-list-item:nth-last-child(-n + 3) {
   margin-bottom: 0;
+}
+.work-examples-list-item {
+  width: 370px;
 }
 
 /* =========КОНЕЦ ПРИМЕРОВ РАБОТ В ПОРТФОЛИО============== */
