@@ -169,6 +169,7 @@ ul {
 }
 
 .nav-icon {
+  margin-top: 5px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -494,11 +495,11 @@ ul {
   border: 1px solid #afb1b8;
   border-radius: 4px;
 }
-
+.our-clients-list-item:not(:last-child) {
+  margin-right: 30px;
+}
 .our-clients-list {
   display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
 }
 /* ===============КОНЕЦ НАШИ КЛИЕНТЫ===================== */
 /* -=========ФИЛЬТР НА СТРАНИЦЕ ПОРТФОЛИО НАЧАЛО =========*/
@@ -515,6 +516,8 @@ ul {
 .button-text-examples:focus {
   background-color: var(--accent-color);
   color: white;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .work-examples-container {
@@ -557,7 +560,8 @@ button {
 /* ============ ФИЛЬТР В ПОРТФОЛИО КОНЕЦ=========== */
 
 /* =========ПРИМЕРЫ РАБОТ В ПОРТФОЛИО =========*/
-.work-examples h2 {
+.work-example-title {
+  color: #212121;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
