@@ -135,6 +135,7 @@ ul {
 }
 .nav-link {
   display: flex;
+  align-items: center;
 }
 
 .nav-email-link,
@@ -169,7 +170,6 @@ ul {
 }
 
 .nav-icon {
-  margin-top: 5px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -479,13 +479,14 @@ ul {
 
 .our-clients-link:hover,
 .our-clients-link:focus {
-  border: 1px solid var(--accent-color);
+  border: #2196f3;
+  border: 1px solid #2196f3;
+}
+.our-clients-link:hover > .our-clients-icon,
+.our-clients-link:focus > .our-clients-icon {
+  fill: #2196f3;
 }
 
-.our-clients-icon:hover,
-.our-clients-icon:focus {
-  fill: var(--accent-color);
-}
 .our-clients-link {
   display: flex;
   justify-content: center;
